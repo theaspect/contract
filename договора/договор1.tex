@@ -1,0 +1,31 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage[T2A]{fontenc}
+%\usepackage[utf8]{inputenc} % older versions of ucs package
+\usepackage[utf8x]{inputenc} % more recent versions (at least>=2004-17-10)
+\usepackage[russian]{babel}
+
+\title{Договор}
+
+\renewcommand{\theparagraph}{\arabic{section}.\arabic{paragraph}}
+\setcounter{secnumdepth}{4}
+
+\begin{document}
+\maketitle
+
+\section{Права}
+
+\input{права/пр1}
+
+\input{права/пр2}
+
+\section{Обязанности}
+
+\input{обязанности/об1}
+
+\input{обязанности/об2}
+
+\end{document}
